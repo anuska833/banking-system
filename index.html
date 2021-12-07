@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="shortcut icon" href="bank.ico" type="image/x-icon">
+
+    <!-- font  -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet"> 
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="table.css">
+
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+
+    <title>Sparks Bank</title>
+</head>
+<body onload="loader()">
+
+    <!-- loader for splash screen -->
+    <div id="loading"></div>
+
+    <!-- navbar section start -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo">
+              <img src="1.png" alt="logo">
+              <a href="https://www.thesparksfoundationsingapore.org/"><b>SPARKS BANK</b></a></div>
+            <ul class="menu">
+                <li><a href="./index.html" class="menu-btn left">Home</a></li>
+                <li><a href="https://www.thesparksfoundationsingapore.org/" class="menu-btn">About us</a></li>
+                <li><a href="#" class="menu-btn">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar section end -->
+
+    <!-- Home section start -->
+
+    <section class="container-fluid home" id="home">
+        <div class="container-fluid hero-content">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-sm-12 text-center" data-aos="fade-up">
+                <h1>Welcome to Sparks Bank</h1>
+                <p class="Welcome">Transact your money from any where</p>
+                <br>
+                <br>
+                <a class="get-started" href="./customers.html">Transfer Money</a><br>
+                <a class="get-started" href="./customers.html">View all Customers</a>
+              </div>
+            </div>
+          </div>
+        </section>
+    <!-- home section end  -->
+
+    <!-- footer section start  -->
+    <footer>
+
+        <!-- contact details section start  -->
+        <div class="contact-me">
+            <h2>Any query, contact me on</h2>
+            <a href="https://www.facebook.com/anuska.ghosh.98837399" target="_blank" class="facebook">f</a>
+            <a href="https://www.linkedin.com/in/anuska-ghosh-8a2b58201" target="_blank" class="linkedin">in</a>
+        </div>
+        <!-- contact details section end  -->
+
+        <span>
+            <span class="fa fa-copyright"></span>
+            <span> Copyright 2021  |</span>
+            <span class="creater-name">Anuska Ghosh</span>
+            |  All Rights Reserved.</span>
+     </footer>
+     <!-- footer section end  -->
+
+
+     <!-- spalsh screen js -->
+    <script>
+        var preloader = document.getElementById("loading");
+        function loader(){
+          preloader.style.display = 'none';
+        }
+      </script>
+
+      <script src="index.js"></script>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- aos data  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+
+</body>
+</html>

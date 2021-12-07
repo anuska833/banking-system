@@ -1,0 +1,36 @@
+.navbar .logo a{
+    color: #e7f9e2 !important;
+}
+.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 98%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 6px 25px;
+    border-radius: 21px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    transition: color 0.3s ease;
+    /* margin-left: 610px; */
+    color: rgb(247, 251, 209);
+}
+.navbar .menu li a:hover{
+    color: black;
+    background-color: white;
+}
+.left{
+    margin-left: 19em;
+}
